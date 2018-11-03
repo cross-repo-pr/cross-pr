@@ -1,0 +1,11 @@
+{
+  "name": "cross-pr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cross-repo-pr/cross-pr.git",
+  "author": "Connor Christie <christieck@msoe.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "probot": "^7.3.1"
+  }
+}
