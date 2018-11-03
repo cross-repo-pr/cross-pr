@@ -5,7 +5,15 @@
   "repository": "git@github.com:cross-repo-pr/cross-pr.git",
   "author": "Connor Christie <christieck@msoe.edu>",
   "license": "MIT",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "deploy": "node -r dotenv/config node_modules/.bin/sync-glitch"
+  },
   "dependencies": {
+    "dotenv": "^6.1.0",
     "probot": "^7.3.1"
+  },
+  "devDependencies": {
+    "sync-glitch-cli": "^2.0.1"
   }
 }
